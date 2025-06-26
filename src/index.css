@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+
+  /* color:#53a3ff2e */
+}
+
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary: #7A4DFC;
+  --color-secondary: #03010D;
+  --color-divider: #dedede;
+  --color-surface: #F7F7F7;
+
+  --color-surfaceHover: #272727;
+  --color-surfaceActive: #333333;
+  --color-menuActive: #312EB5;
+  --color-onSurface: #9E9E9E;
+  --color-onSurfaceActive: #FFFFFF;
+
+  --color-danger: rgb(232, 52, 52);
+
+
+
+  --animate-infinite-scroll: infinite-scroll 20s linear infinite;
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0%);
+    }
+
+    to {
+      transform: translateX(-102%);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(-5px);
+    }
+
+    50% {
+      transform: translateY(0%);
+    }
+  }
+
+  --text-heading: clamp(1rem, 8vw, 3rem);
+  --text-mainHeading: clamp(1rem, 10vw, 4rem);
+}
+
+/* @layer base {
+  .dark {
+    --color-primary: #181818;
+    --color-secondary: #1C1C1C;
+    --color-surface: #232323;
+    --color-surfaceHover: #292929;
+    --color-surfaceActive: #333333;
+    --color-menuActive: #312EB5;
+    --color-onSurface: #9E9E9E;
+    --color-onSurfaceActive: #FFFFFF;
+    --color-separator: #363636;
+    --color-danger: rgb(232, 52, 52);
+
+
+    color: white;
+    background-color: var(--color-primary);
+  }
+} */
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(75, 75, 75);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+
+::selection {
+  background: #7A4DFC;
+  color: white;
+}
+
+::-moz-selection {
+  background: #7A4DFC;
+  color: white;
+}
