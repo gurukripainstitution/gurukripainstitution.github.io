@@ -1,1 +1,0 @@
-# Guru Kripa Institution
