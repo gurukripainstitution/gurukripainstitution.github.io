@@ -112,7 +112,7 @@ export default function About() {
         <div className="flex flex-col gap-24">
 
             <Section>
-                <div className="sm:px-24 md:px-48 px-8 text-center flex flex-col items-center gap-8 mt-8">
+                <div className="sm:px-8 md:px-24 lg:px-36 text-center flex flex-col items-center gap-8 mt-8">
                     <PageHeader
                         heading={'About Guru Kripa Institute of'}
                         highlightedHeading={'Management and IT'}

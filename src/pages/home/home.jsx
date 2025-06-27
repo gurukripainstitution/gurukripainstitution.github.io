@@ -52,7 +52,8 @@ export default function Home() {
         <div className="flex flex-col gap-24">
 
             <Section>
-                <div className="relative sm:px-24 md:px-48 px-8 text-center flex flex-col items-center gap-8 mt-8">
+                {/* <div className="relative sm:px-8 md:px-24 lg:px-36 text-center flex flex-col items-center gap-8 mt-8"> */}
+                <div className="relative sm:px-8 md:px-24 lg:px-36 text-center flex flex-col items-center gap-8 mt-8">
                     <PageHeader
                         heading={'Learn and Grow with Expert'}
                         highlightedHeading={'IT Courses'}
@@ -77,29 +78,32 @@ export default function Home() {
                         />
                     </motion.div>
 
-                    <motion.div
+
+
+
+                    {/* <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.5 } }}
                         viewport={{ once: true, amount: 0.2 }}
                         className="absolute left-0 top-20 sm:left-10 md:left-30 lg:left-40 -rotate-20 animate-float"
                     >
-                        <img src="images/icons/landing-page-certificate.svg" className="w-10 sm:w-12 pointer-events-none opacity-80" alt="" />
-                    </motion.div>
-                    <motion.div
+                        <img src="images/icons/landing-page-certificate.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
+                    </motion.div> */}
+                    {/* <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.5 } }}
                         viewport={{ once: true, amount: 0.2 }}
-                        className="absolute right-0 top-0 sm:right-10 md:right-30 lg:right-40 -rotate-20 animate-float"
+                        className="absolute right-0 -top-5 sm:right-10 md:right-30 lg:right-40 -rotate-20 animate-float"
                     >
-                        <img src="images/icons/landing-page-computer.svg" className="w-10 sm:w-12 pointer-events-none opacity-80" alt="" />
-                    </motion.div>
+                        <img src="images/icons/landing-page-computer.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
+                    </motion.div> */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0, transition: { delay: 0.4, duration: 0.5 } }}
                         viewport={{ once: true, amount: 0.2 }}
                         className="absolute right-0 bottom-12 sm:right-10 md:right-30 lg:right-40 -rotate-20 animate-float"
                     >
-                        <img src="images/icons/landing-page-teacher.svg" className="w-10 sm:w-12 pointer-events-none opacity-80" alt="" />
+                        <img src="images/icons/landing-page-computer.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -107,9 +111,8 @@ export default function Home() {
                         viewport={{ once: true, amount: 0.2 }}
                         className="absolute left-0 bottom-0 sm:left-10 md:left-30 lg:left-40 -rotate-20 animate-float"
                     >
-                        <img src="images/icons/landing-page-book.svg" className="w-10 sm:w-12 pointer-events-none opacity-80" alt="" />
+                        <img src="images/icons/landing-page-book.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
                     </motion.div>
-
                 </div>
             </Section>
 
