@@ -78,25 +78,6 @@ export default function Home() {
                         />
                     </motion.div>
 
-
-
-
-                    {/* <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.5 } }}
-                        viewport={{ once: true, amount: 0.2 }}
-                        className="absolute left-0 top-20 sm:left-10 md:left-30 lg:left-40 -rotate-20 animate-float"
-                    >
-                        <img src="images/icons/landing-page-certificate.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
-                    </motion.div> */}
-                    {/* <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.5 } }}
-                        viewport={{ once: true, amount: 0.2 }}
-                        className="absolute right-0 -top-5 sm:right-10 md:right-30 lg:right-40 -rotate-20 animate-float"
-                    >
-                        <img src="images/icons/landing-page-computer.svg" className="w-10 sm:w-12 pointer-events-none opacity-60" alt="" />
-                    </motion.div> */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0, transition: { delay: 0.4, duration: 0.5 } }}

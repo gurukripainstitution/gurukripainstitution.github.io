@@ -251,7 +251,7 @@ export default function MainLayout() {
             <Section>
                 <div className="flex justify-between py-4 gap-4">
                     <p className="text-xs">© All rights reserved.</p>
-                    <p className="text-xs text-right sm:text-sm sm:text-left">Developed with ❤️ by <a target="_blank" href="https://github.com/hisuperaman" className="active:text-primary hover:text-primary transition ease-in-out">hisuperaman</a></p>
+                    <p className="text-xs text-right sm:text-sm sm:text-left">Powered by <a target="_blank" href="https://github.com/hisuperaman" className="active:text-primary hover:text-primary transition ease-in-out">hisuperaman</a></p>
                 </div>
             </Section>
         </div>
