@@ -39,7 +39,7 @@ function CompanySlider() {
                             alt="Brand Logo"
                         />
                     ))} */}
-                    <p>Guru Kripa Institute (NIELIT Facilitation Centre) - Practical courses like CCC, CCCP, ECC, DCA, PGDCA, O Level & Tuition for BCA, MSc(IT), MCA; Industrial training for Polytechnic/B.Tech - <span className="">Call: 98171-62762</span></p>
+                    <p>Guru Kripa Institute (NIELIT Facilitation Centre) - Practical courses like CCC, CCCP, ECC; Subject Tuition for DCA, PGDCA; Industrial training for Polytechnic/B.Tech - <span className="">Call: 98171-62762</span></p>
                 </Marquee>
             </div>
         </div >
@@ -57,7 +57,7 @@ export default function Home() {
                     <PageHeader
                         heading={'Learn and Grow with Expert'}
                         highlightedHeading={'IT Courses'}
-                        description={'Guru Kripa Institute offers certified courses like BCC, ECC, O Level and hands-on industrial training & internships to boost your IT career.'}
+                        description={'Guru Kripa Institute offers certified courses like BCC, ECC and hands-on industrial training & internships to boost your IT career.'}
                     />
 
                     <motion.div
