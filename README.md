@@ -1,1 +1,1 @@
-# Guru Kripa Institution
+# Guru Kripa Institute of Management & IT
