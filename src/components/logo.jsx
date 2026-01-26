@@ -10,8 +10,9 @@ export default function Logo() {
                 <img className="w-8 pointer-events-none" src="logo.png" alt="" />
             </div>
             <div className="flex flex-col">
-            <p className="font-medium text-xl">Guru Kripa</p>
-            <p className="font-medium">Institution</p>
+            <p className="font-medium text-xl">Guru Kripa Institute</p>
+            <p className="font-medium">of Management & Information Technology</p>
+            <p className="text-xs">Registered under Ministry of Micro, Small and Medium Enterprises, Act 2006.</p>
             </div>
         </NavLink>
     )

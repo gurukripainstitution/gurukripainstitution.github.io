@@ -150,7 +150,7 @@ function Footer() {
             <div className="flex flex-col gap-4">
                 <Logo />
                 <p className="text-sm">
-                    Guru Kripa Institute of Management and IT is a NIELIT-affiliated institute offering certified courses in computer science, practical training, and career-focused education.
+                    Guru Kripa Institute of Management and Information Technology is a NIELIT facilitation centre to conduct Digital Literacy Courses (DLC i.e. ACC, BCC, CCC, CCC+, & ECC).
                 </p>
 
                 <div className="flex gap-4">
@@ -210,7 +210,7 @@ function Footer() {
 
                 <p>+(91) 98171-62762</p>
                 <p>harish.snr@gmail.com</p>
-                <p>Shaheed Naresh Chowk Sundernagar Distt. Mandi, HP, 175019</p>
+                <p>House No: 60/10, Shaheed Naresh Chowk, Tehsil Sundernagar, Distt. Mandi, HP, 175019</p>
 
                 <div className="flex items-center gap-2">
                     <div className="h-8">

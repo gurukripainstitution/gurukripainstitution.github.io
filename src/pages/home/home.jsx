@@ -39,7 +39,7 @@ function CompanySlider() {
                             alt="Brand Logo"
                         />
                     ))} */}
-                    <p>Guru Kripa Institute (NIELIT Facilitation Centre) - Practical courses like CCC, CCCP, ECC; Subject Tuition for DCA, PGDCA; Industrial training for Polytechnic/B.Tech - <span className="">Call: 98171-62762</span></p>
+                    <p>Guru Kripa Institute of Management and Information Technology (NIELIT Facilitation Centre) - Practical courses like CCC, CCCP, ECC; Subject Tuition for DCA, PGDCA; Industrial training for Polytechnic/B.Tech - <span className="">Call: 98171-62762</span></p>
                 </Marquee>
             </div>
         </div >
@@ -57,7 +57,7 @@ export default function Home() {
                     <PageHeader
                         heading={'Learn and Grow with Expert'}
                         highlightedHeading={'IT Courses'}
-                        description={'Guru Kripa Institute offers certified courses like BCC, ECC and hands-on industrial training & internships to boost your IT career.'}
+                        description={'Guru Kripa Institute of Management and Information Technology offers certified courses like BCC, ECC and hands-on industrial training & internships to boost your IT career.'}
                     />
 
                     <motion.div
@@ -180,7 +180,7 @@ export default function Home() {
                     <SplitCardContent
                         heading={'Empowering Future IT Professionals with'}
                         highlightedHeading={'NIELIT Certification'}
-                        description={'Guru Kripa Institute of Management and IT provides industry-recognized NIELIT courses combined with practical training and real-world internships. Our expert faculty and modern labs prepare you for a successful career in technology.'}
+                        description={'Guru Kripa Institute of Management and Information Technology provides industry-recognized NIELIT courses combined with practical training and real-world internships. Our expert faculty and modern labs prepare you for a successful career in technology.'}
                         primaryButton={
                             <PrimaryButton to={'/courses'} label={'Explore Courses'} />
                         }

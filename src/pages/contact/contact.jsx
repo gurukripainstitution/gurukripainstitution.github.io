@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 function ContactForm() {
     return (
-        <form action={'#'} method="get" className="py-12 px-8 sm:px-16 bg-surface flex flex-col gap-4 rounded-xl">
+        <form action={'https://api.web3forms.com/submit'} method="POST" className="py-12 px-8 sm:px-16 bg-surface flex flex-col gap-4 rounded-xl">
             <p className="text-4xl font-medium">Send Us A Message</p>
 
             <p>
@@ -15,14 +15,14 @@ function ContactForm() {
             </p>
 
             <div className="sm:grid sm:grid-cols-2 flex flex-col gap-4">
-                <InputField label={'Full Name'} />
-                <InputField label={'Email'} />
-                <InputField label={'Phone'} />
+                <input type="hidden" name="access_key" value={'c28f7f8f-e0e9-4ade-a4d8-704253f51b36'} />
+                <InputField label={'Full Name'} name={'full_name'} />
+                <InputField label={'Email'} name={'email'} />
+                <InputField label={'Phone'} name={'phone_number'} />
                 <div></div>
 
                 <div className="col-span-2">
-                    <InputField label={'Message'} type="textarea" />
-
+                    <InputField label={'Message'} type="textarea" name={'message'} />
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
                             logoSrc={"images/icons/location.png"}
                             heading={'Visit our office'}
                             description={'Visit us for scheduling'}
-                            body={'Shaheed Naresh Chowk Sundernagar Distt. Mandi, HP, 175019'}
+                            body={'House No: 60/10, Shaheed Naresh Chowk, Tehsil Sundernagar, Distt. Mandi, HP, 175019'}
                             bgColor={'#FFEFEB'}
                         />
                         <FeatureCard

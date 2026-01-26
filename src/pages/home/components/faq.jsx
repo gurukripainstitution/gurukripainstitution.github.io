@@ -50,13 +50,13 @@ export default function Faq() {
 
 
     const questions = [
-        { label: 'Is Guru Kripa Institute affiliated with NIELIT?', description: 'Yes, our institute is officially affiliated with NIELIT (National Institute of Electronics & Information Technology), ensuring government-recognized certifications.' },
+        { label: 'Is Guru Kripa Institute affiliated with NIELIT?', description: 'Yes, our institute is officially a NIELIT (National Institute of Electronics & Information Technology) facilitation centre with E-Prov. 88006260.' },
         { label: 'Are the certificates recognized?', description: 'Yes, all certificates issued through NIELIT-affiliated courses are valid for government and private sector jobs.' },
-        { label: 'Do I need to have my own laptop/computer to study at Guru Kripa Institution?', description: 'No, you don’t need to have your own laptop/computer. Guru Kripa Institution usually provides you with a computer to practice on during the classes.' },
+        { label: 'Do I need to have my own laptop/computer to study at Guru Kripa Institute of Management and Information Technology?', description: 'No, you don’t need to have your own laptop/computer. Guru Kripa Institute of Management and Information Technology usually provides you with a computer to practice on during the classes.' },
         { label: 'Can I apply online?', description: 'No, you can either contact via call/email or visit institute.' },
         { label: 'Do you provide industrial training / internships?', description: 'Yes, we do provide industrial training and internships for polytechnic students as well as for B.Tech CSE, BSc IT/CS, MSc IT/CS, BCA, MCA with duration from 1-2 months.' },
         { label: 'Do you provide study material?', description: 'Yes, we provide both handwritten and digital study material for all courses.' },
-        { label: 'What are the operating hours of Guru Kripa Institution?', description: 'The operating hours of Guru Kripa Institution are 09:00 am - 5:00 pm for Monday to Saturday, Sunday closed.' },
+        { label: 'What are the operating hours of Guru Kripa Institute of Management and Information Technology?', description: 'The operating hours of Guru Kripa Institute of Management and Information Technology are 09:00 am - 5:00 pm for Monday to Saturday, Sunday closed.' },
         { label: 'What are the class timings?', description: 'We offer flexible batch timings, including morning and evening sessions, to suit students and working professionals.' },
     ]
 

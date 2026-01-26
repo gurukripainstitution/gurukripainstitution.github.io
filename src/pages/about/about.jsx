@@ -115,7 +115,7 @@ export default function About() {
                 <div className="sm:px-8 md:px-24 lg:px-36 text-center flex flex-col items-center gap-8 mt-8">
                     <PageHeader
                         heading={'About Guru Kripa Institute of'}
-                        highlightedHeading={'Management and IT'}
+                        highlightedHeading={'Management and Information Technology'}
                         description={'Providing quality IT education and practical training to build career-ready professionals.'}
                     />
                 </div>
@@ -138,7 +138,7 @@ export default function About() {
                     <SplitCardContent
                         heading={'NIELIT Facilitation Centre for'}
                         highlightedHeading={'Quality IT Education'}
-                        description={'Guru Kripa Institute of Management and IT is proudly affiliated with NIELIT, offering certified courses and hands-on training to shape future-ready IT professionals.'}
+                        description={'Guru Kripa Institute of Management and Information Technology is proudly affiliated with NIELIT, offering certified courses and hands-on training to shape future-ready IT professionals.'}
                         primaryButton={
                             <PrimaryButton to={'/courses'} label={'Explore Courses'} />
                         }
