@@ -63,6 +63,15 @@ function MobileMenu({ onClose }) {
                     Courses
                 </NavLink>
                 <NavLink
+                    to={'/downloads'}
+                    className={({ isActive, isPending }) => {
+                        const cls = `active:text-primary hover:text-primary transition duration-200 ease-in-out py-2 ` + (isActive ? 'text-primary' : 'text-black')
+                        return cls
+                    }}
+                >
+                    Downloads
+                </NavLink>
+                <NavLink
                     to={'/contact'}
                     className={({ isActive, isPending }) => {
                         const cls = `active:text-primary hover:text-primary transition duration-200 ease-in-out py-2 ` + (isActive ? 'text-primary' : 'text-black')
@@ -108,16 +117,13 @@ function NavBar() {
                         return cls
                     }}
                 >Courses</NavLink>
-                {/* <NavLink
-                    className={'hover:text-primary transition duration-200 ease-in-out'}
-                >Teachers</NavLink> */}
                 <NavLink
-                    to={'/contact'}
+                    to={'/downloads'}
                     className={({ isActive, isPending }) => {
                         const cls = `active:text-primary hover:text-primary transition duration-200 ease-in-out ` + (isActive ? 'text-primary' : 'text-black')
                         return cls
                     }}
-                >Contact</NavLink>
+                >Downloads</NavLink>
             </div>
 
             <div className="hidden md:block">
