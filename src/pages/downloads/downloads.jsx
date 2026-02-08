@@ -134,7 +134,6 @@ function DocumentsTable({
                                                     className="text-blue-600 hover:underline"
                                                 >
                                                     View Media
-                                                    
                                                 </a>
                                             </>
                                         )}
